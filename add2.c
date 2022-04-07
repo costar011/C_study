@@ -17,6 +17,15 @@ int main(void)
     int sum;
 
     printf("첫 번쨰 숫자를 입력하시오.");
+    scanf("%d",&x);
+
+
+    printf("ㄷㅜ 번쨰 숫자를 입력하시오.");
+    scanf("%d",&y);
+
+    sum = x + y;
+    
+    printf("두 수의 합 : %d\n", sum);
 
   
 
