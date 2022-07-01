@@ -18,4 +18,13 @@ int main(void) {
     c5000 = change / 5000;
     change = change % 5000;
 
+    c100 = change / 1000;
+    change = change % 1000;
+
+    c500 = change / 500;
+    change = change % 500;
+
+    c100 = change / 100;
+    change = change % 100;
+
 }
