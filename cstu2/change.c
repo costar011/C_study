@@ -27,4 +27,11 @@ int main(void) {
     c100 = change / 100;
     change = change % 100;
 
+    printf("오천원권: ");
+    printf("");
+    printf("");
+    printf("");
+    
+    return 0;
+
 }
