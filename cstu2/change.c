@@ -1,4 +1,4 @@
-/* 쉽게 풀어쓴 C언어 express 180 */
+/* 쉽게 풀어쓴 C언어 express 180 ~ 181 */
 
 #include <stdio.h>
 
