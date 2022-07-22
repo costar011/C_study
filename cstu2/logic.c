@@ -11,11 +11,9 @@ int main(void) {
     scanf("%d%d", &x, &y);
 
 
-    printf("");
-    printf("");
-    printf("");
-
-   
+    printf("%d && %d의 결과값: %d\n", x , y, x && y);
+    printf("%d || %d의 결과값: %d\n", x, y, x || y);
+    printf("!%d의 결과값: %d\n", x, !y);
 
     return 0;
 
