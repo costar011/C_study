@@ -1,5 +1,7 @@
 /* 쉽게 풀어쓴 C언어 express 244 */
 
+
+
 #include <stdio.h>
 
 int main(void) {
