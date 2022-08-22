@@ -14,9 +14,22 @@ switch(op) {
 
     case '+':
         result = x + y;
+    case '-':
+        result = x - y;
+    case '*':
+        result = x * y;
+    case '/':
+        result = x / y;
+    case '%':
+        result = x % y;
+        break;
+    default:
+        printf("지원되지 않는 연산자입니다."\n);
+        break;
 
 }
 
+printf("%d %c %d = %d\n", x, op, y, result);
 return 0;
 
 }
