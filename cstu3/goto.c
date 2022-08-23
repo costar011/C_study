@@ -12,8 +12,8 @@ int i = 1;
 loop:
     printf("%d * %d = %d\n", 3, i, 3*i);
     i++;
-    if(i == 10) goto end;
-    goto loop;
+    if(i == 10) goto end; // i가 10이 되면 레이블 end로 점프한다.
+    goto loop; // 레이블 loop로 점프한다.
 
 end:
     return 0;
