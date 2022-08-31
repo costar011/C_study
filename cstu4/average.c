@@ -15,6 +15,17 @@ grade = 0;
 
 printf("종료하려면 음수를 입력하시오.\n");
 
+// 성적을 입력받아서 합계를 구하고 학생 수를 센다.
+while(grade >= 0) 
+{
+    printf("성적을 입력하시오. :");
+    scanf("%d", &grade);
+
+    sum += grade;
+    n++;
+
+}
+
 return 0;
 
 }
