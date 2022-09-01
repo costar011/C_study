@@ -26,6 +26,11 @@ while(grade >= 0)
 
 }
 
+sum = sum - grade;
+n--;
+// 평균을 계산하고 화면에 출력한다.
+average("성적의 평균은 %f입니다.\n", average);
+
 return 0;
 
 }
